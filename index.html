@@ -8,18 +8,65 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Resume Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="biodata.html">Bio-data</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Welcome to My Resume Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="resume.html" target="_blank" class="btn">Resume</a></li>
+                    <li> <a href="biodata.html" target="_blank" class="btn">Bio-Data</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! I’m [Your Name]. Welcome to my personal website!</p>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Hi, I'm Anvitha M Shetty</h2>
+            <p>Explore my qualifications, skills, and experiences. I'm ready for new opportunities!</p>
+            <a href="resume.html" target="_blank" class="btn">View Resume</a>
+            <a href="biodata.html" target="_blank" class="btn">View BioData</a>
+        </div>
     </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>I am passionate about technology, learning, and solving problems. My skills range from web development to data analysis, and I am eager to apply my knowledge in real-world projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Analysis</h3>
+                    <p>Python, R, Excel</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <p>Algorithms, Data Structures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 [Your Name]. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -3,30 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>My Resume</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>My Resume</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="biodata.html">Bio-data</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>My Resume</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html" class="active">Resume</a></li>
+                    <li><a href="biodata.html">Bio-data</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Professional Summary</h2>
-        <p>[Your summary here]</p>
-        <h2>Work Experience</h2>
-        <ul>
-            <li>Company 1: [Role] (Year)</li>
-            <li>Company 2: [Role] (Year)</li>
-        </ul>
-        <h2>Skills</h2>
-        <p>HTML, CSS, JavaScript, etc.</p>
+
+    <section class="resume-content">
+        <div class="container">
+            <!-- Education -->
+            <h2>Education</h2>
+            <div class="resume-section">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>XYZ University | 2019 - 2023</p>
+                <ul>
+                    <li>CGPA: 8.5/10</li>
+                    <li>Major: Computer Science and Engineering</li>
+                    <li>Relevant Courses: Data Structures, Web Development, Operating Systems, Algorithms, Database Management Systems</li>
+                    <li>Projects: Developed a web application for a local business using React and Node.js</li>
+                </ul>
+            </div>
+
+            <!-- 12th Grade -->
+            <h2>12th Grade (Higher Secondary)</h2>
+            <div class="resume-section">
+                <h3>XYZ Senior Secondary School</h3>
+                <p>2017 - 2019</p>
+                <ul>
+                    <li>Percentage: 85%</li>
+                    <li>Stream: Science (Physics, Chemistry, Mathematics)</li>
+                    <li>Notable Achievements: State-level science fair participant</li>
+                </ul>
+            </div>
+
+            <!-- School -->
+            <h2>School Education</h2>
+            <div class="resume-section">
+                <h3>ABC Public School</h3>
+                <p>2015 - 2017</p>
+                <ul>
+                    <li>Percentage: 90%</li>
+                    <li>Subjects: English, Mathematics, Science, Social Studies</li>
+                    <li>Notable Achievements: Top 10% in school, received academic excellence award</li>
+                </ul>
+            </div>
+
+            <!-- Optional Job Experience -->
+            <h2>Experience (Optional)</h2>
+            <div class="resume-section">
+                <h3>Software Developer Intern</h3>
+                <p>ABC Tech Solutions | June 2022 - August 2022</p>
+                <ul>
+                    <li>Assisted in developing a customer management tool using JavaScript and Firebase</li>
+                    <li>Collaborated with a team of 4 developers to design a responsive user interface</li>
+                    <li>Worked on bug fixes and feature enhancements, improving system efficiency by 20%</li>
+                    <li>Gained exposure to the Agile development environment</li>
+                </ul>
+            </div>
+
+            <!-- Skills -->
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <ul>
+                    <li><strong>Programming Languages:</strong> Python, JavaScript, C++, Java</li>
+                    <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js, Node.js</li>
+                    <li><strong>Database Management:</strong> MySQL, MongoDB</li>
+                    <li><strong>Data Structures and Algorithms:</strong> Array, Linked List, Trees, Sorting algorithms</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                </ul>
+            </div>
+
+            <!-- Certifications -->
+            <h2>Certifications</h2>
+            <div class="resume-section">
+                <ul>
+                    <li><strong>Certified Web Developer</strong> - XYZ Online Academy | 2023</li>
+                    <li><strong>Data Science Basics</strong> - Coursera | 2022</li>
+                    <li><strong>Introduction to Algorithms</strong> - Udemy | 2022</li>
+                </ul>
+            </div>
+
+            <!-- Hobbies & Interests -->
+            <h2>Hobbies & Interests</h2>
+            <div class="resume-section">
+                <ul>
+                    <li>Travelling and exploring new technologies</li>
+                    <li>Reading tech blogs and coding tutorials</li>
+                    <li>Volunteer work for educational causes and mentorship for junior students</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 [Your Name]. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
